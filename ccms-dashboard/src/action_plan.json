@@ -1,0 +1,122 @@
+{
+  "case_identity": {
+    "case_type": {
+      "value": "Criminal Petition",
+      "source_text": "CRIMINAL PETITION No.3258 OF 2024"
+    },
+    "case_number": {
+      "value": "3258/2024",
+      "source_text": "CRIMINAL PETITION No.3258 OF 2024"
+    },
+    "year": {
+      "value": "2024",
+      "source_text": "CRIMINAL PETITION No.3258 OF 2024"
+    },
+    "bench": {
+      "value": "High Court of Karnataka at Bengaluru",
+      "source_text": "IN THE HIGH COURT OF KARNATAKA AT BENGALURU"
+    },
+    "judge": {
+      "value": "Hon'ble Mr. Justice M. Nagaprasanna",
+      "source_text": "THE HON'BLE MR. JUSTICE M. NAGAPRASANNA"
+    }
+  },
+  "dates": {
+    "reserved_on": {
+      "value": "07.01.2026",
+      "source_text": "Reserved on     : 07.01.2026"
+    },
+    "pronounced_on": {
+      "value": "30.01.2026",
+      "source_text": "Pronounced on : 30.01.2026"
+    },
+    "order_date": {
+      "value": "30.01.2026",
+      "source_text": "DATED THIS THE 30TH DAY OF JANUARY, 2026"
+    }
+  },
+  "verdict": {
+    "value": "Dismissed",
+    "source_text": "the petition lacking in merit stands rejected"
+  },
+  "operative_paragraphs": [
+    {
+      "para_number": 11,
+      "direction": "Petition dismissed; Investigation to be concluded expeditiously",
+      "source_text": "Therefore, finding the petition meritless, as none of the contentions advanced would hold water and finding prima facie ingredients being met of the offence under Section 295A of the IPC or even under the Act, the petition lacking in merit stands rejected. Since the crime is of the year 2021, the Investigating Officer shall now conclude the investigation as expeditiously as possible, without brooking any delay, bearing in mind the observations made in the course of the order. Ordered accordingly."
+    },
+    {
+      "para_number": 11,
+      "direction": "Interim orders dissolved; I.A.No.2 of 2024 disposed",
+      "source_text": "Interim order of any kind operating shall stand dissolved. Consequently, I.A.No.2 of 2024 also stand disposed."
+    }
+  ],
+  "action_plan": {
+    "compliance_tasks": [
+      {
+        "task_id": "T001",
+        "description": "Approval - IO to review observations and prepare investigation completion plan",
+        "status": "Pending",
+        "priority": "High",
+        "deadline": "T+15 days (14.02.2026)",
+        "source_text": "the Investigating Officer shall now conclude the investigation as expeditiously as possible, without brooking any delay, bearing in mind the observations made in the course of the order."
+      },
+      {
+        "task_id": "T002",
+        "description": "Execution - IO to conclude investigation and file final report/charge sheet",
+        "status": "Pending",
+        "priority": "High",
+        "deadline": "T+60 days (30.03.2026)",
+        "source_text": "the Investigating Officer shall now conclude the investigation as expeditiously as possible, without brooking any delay"
+      },
+      {
+        "task_id": "T003",
+        "description": "Compliance Affidavit - State to file compliance affidavit confirming investigation completion",
+        "status": "Pending",
+        "priority": "Medium",
+        "deadline": "T+75 days (14.04.2026)",
+        "source_text": "Ordered accordingly."
+      }
+    ],
+    "appeal_review": {
+      "limitation_period": "90 days (appeal to Supreme Court under Article 132/133/134)",
+      "review_deadline": "T+75 days (14.04.2026)",
+      "filing_deadline": "T+90 days (29.04.2026)",
+      "notes": "Petitioner may file SLP before Supreme Court within 90 days from order date",
+      "source_text": "the petition lacking in merit stands rejected"
+    },
+    "tracking": {
+      "t_zero": "30.01.2026",
+      "milestones": [
+        {
+          "label": "T+15",
+          "date": "14.02.2026",
+          "description": "IO to finalize investigation plan"
+        },
+        {
+          "label": "T+30",
+          "date": "01.03.2026",
+          "description": "30-day progress check on investigation"
+        },
+        {
+          "label": "T+60",
+          "date": "30.03.2026",
+          "description": "Investigation completion target"
+        },
+        {
+          "label": "T+75",
+          "date": "14.04.2026",
+          "description": "Compliance Affidavit due; Appeal Review deadline"
+        },
+        {
+          "label": "T+90",
+          "date": "29.04.2026",
+          "description": "Appeal limitation period ends"
+        }
+      ]
+    }
+  },
+  "verification_status": "PENDING_HUMAN_VERIFICATION",
+  "generated_on": "2026-05-03",
+  "protocol_version": "CCMS-AI v1.0"
+}
