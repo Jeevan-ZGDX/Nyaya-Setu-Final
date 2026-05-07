@@ -362,34 +362,63 @@ input, textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 48px 24px;
-  gap: 24px;
+  padding: 40px 24px;
 }
 
-.upload-hero {
+.upload-card {
+  width: 100%;
+  max-width: 640px;
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.upload-tricolor-bar {
+  height: 3px;
+  background: linear-gradient(90deg, var(--saffron) 33%, var(--white) 33%, var(--white) 66%, var(--india-green) 66%);
+}
+
+.upload-card-header {
+  padding: 28px 32px 0;
   text-align: center;
-  max-width: 480px;
 }
 
-.upload-hero h1 {
-  font-size: 24px;
+.upload-emblem-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(135deg, var(--saffron) 0%, var(--india-green) 100%);
+  border-radius: 50%;
+  margin-bottom: 14px;
+}
+
+.upload-emblem-badge svg {
+  color: white;
+}
+
+.upload-card-header h1 {
+  font-size: 20px;
   font-weight: 700;
   color: var(--navy);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
-.upload-hero p {
-  font-size: 14px;
+.upload-card-header p {
+  font-size: 13px;
   color: var(--text-secondary);
+  line-height: 1.5;
 }
 
 .upload-zone {
-  width: 100%;
-  max-width: 480px;
-  padding: 40px 32px;
-  background: var(--bg-white);
+  margin: 20px 32px;
+  padding: 36px 28px;
+  background: transparent;
   border: 2px dashed var(--border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -427,35 +456,27 @@ input, textarea {
   color: var(--text-muted);
 }
 
-.error-banner {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 16px;
-  background: var(--danger-light);
-  border: 1px solid var(--danger-border);
-  border-radius: var(--radius);
-  color: var(--danger);
-  font-size: 13px;
-  font-weight: 500;
+.upload-card .error-banner {
+  margin: 0 32px 16px;
 }
 
 .upload-features {
   display: flex;
-  gap: 20px;
-  margin-top: 8px;
+  gap: 16px;
+  padding: 0 32px 28px;
 }
 
 .feature {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-secondary);
 }
 
 .feature svg {
   color: var(--india-green);
+  flex-shrink: 0;
 }
 
 /* ========== LOADING ========== */
