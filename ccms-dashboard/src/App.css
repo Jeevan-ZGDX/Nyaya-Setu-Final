@@ -373,10 +373,11 @@ input, textarea {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
   overflow: hidden;
+  position: relative;
 }
 
 .upload-tricolor-bar {
-  height: 3px;
+  height: 6px;
   background: linear-gradient(90deg, var(--saffron) 33%, var(--white) 33%, var(--white) 66%, var(--india-green) 66%);
 }
 
@@ -411,6 +412,10 @@ input, textarea {
   font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.5;
+}
+
+.hidden-input {
+  display: none;
 }
 
 .upload-zone {
